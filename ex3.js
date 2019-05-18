@@ -4,7 +4,6 @@
 
 function namesOnly(persons){
     // your code here
-    return persons.map((p) => p.name);
 }
 
 

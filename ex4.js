@@ -6,7 +6,6 @@
 
 function makeStringsWhoCanAccess(persons){
     // your code here
-    return persons.filter(p => p.age >= 18).map(p => p.name);
 }
 
 const test = require('./tools/test');

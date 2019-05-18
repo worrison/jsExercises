@@ -3,7 +3,6 @@
 
 function stringItUp(numbers){
     // your code here
-    return numbers.map((n) => '' + n);
 }
 
 

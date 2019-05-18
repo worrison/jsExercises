@@ -4,7 +4,6 @@
 
 function fiveAndGreaterOnly(numbers) {
     // your code here
-    return numbers.filter((n) => n >= 5);
 }
 
 

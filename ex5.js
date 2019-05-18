@@ -18,7 +18,7 @@
 
 
 function songsOfArtist(songs, artistName){
-    return songs.filter(s => s.artist === artistName).map(s => s.song);
+    //Your code goes here
 }
 
 const test = require('./tools/test');
