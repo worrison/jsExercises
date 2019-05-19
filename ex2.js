@@ -3,6 +3,13 @@
 
 function stringItUp(numbers){
     // your code here
+    let array=numbers.map(function(x)
+    {
+        x=""+x;
+        console.log(x);
+        return  x; 
+    })
+    console.log(array);
 }
 
 
