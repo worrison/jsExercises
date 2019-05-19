@@ -4,6 +4,15 @@
 
 function fiveAndGreaterOnly(numbers) {
     // your code here
+    let highNumber=[];
+    for (let number of numbers) {
+        if(number>=5)
+        {
+            highNumber.push(number);
+        }
+    }
+    console.log(highNumber);
+    return highNumber
 }
 
 
